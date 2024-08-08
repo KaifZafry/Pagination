@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.products{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.single__product{
+  width: 20%;
+  margin: 20px;
+  text-align: center;
+}                            
+.pagination{
+  text-align: center;
+  margin: 2rem 0;
+}
+.pagination span  {
+  cursor: pointer;
+  padding: 4px 10px;
+  margin: 0rem 12px;
+  
+  border: 1px solid red;
+}
+.selected_page{
+  background-color: rgb(235, 77, 77);
+}
+.disable{
+  display: none;
+}
